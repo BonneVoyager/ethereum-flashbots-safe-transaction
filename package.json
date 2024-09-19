@@ -1,0 +1,17 @@
+{
+  "name": "ethereum-flashbots-safe-transaction",
+  "version": "1.0.0",
+  "description": "Sign Safe wallet pending transactions and send them as private transactions using Flashbots",
+  "scripts": {
+    "start": "ts-node index.ts"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@flashbots/ethers-provider-bundle": "1.0.0",
+    "@safe-global/api-kit": "2.4.3",
+    "@safe-global/protocol-kit": "4.0.3",
+    "dotenv": "16.4.5",
+    "ts-node": "10.9.2",
+    "typescript": "5.5.4"
+  }
+}
